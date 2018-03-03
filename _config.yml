@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+gem "github-pages", group: :jekyll_plugins
+title: "Newschain"
+description: "Web Content Traceability With Oracles"
+show_downloads: "false"
