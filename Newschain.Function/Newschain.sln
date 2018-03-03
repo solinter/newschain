@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newschain", "Newschain\Newschain.csproj", "{E6740F7B-2596-4083-8029-D40CE0443D8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6740F7B-2596-4083-8029-D40CE0443D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6740F7B-2596-4083-8029-D40CE0443D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6740F7B-2596-4083-8029-D40CE0443D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6740F7B-2596-4083-8029-D40CE0443D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36189821-4546-4177-AF35-5EA85F79F725}
+	EndGlobalSection
+EndGlobal
