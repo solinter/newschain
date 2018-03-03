@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.6" />
+    <PackageReference Include="Nethereum.ABI" Version="2.2.3" />
+    <PackageReference Include="Nethereum.Hex" Version="2.2.3" />
+    <PackageReference Include="Nethereum.JsonRpc.Client" Version="2.2.3" />
+    <PackageReference Include="Nethereum.JsonRpc.IpcClient" Version="2.2.3" />
+    <PackageReference Include="Nethereum.JsonRpc.RpcClient" Version="2.2.3" />
+    <PackageReference Include="Nethereum.KeyStore" Version="2.2.3" />
+    <PackageReference Include="Nethereum.RPC" Version="2.2.3" />
+    <PackageReference Include="Nethereum.StandardTokenEIP20" Version="2.2.3" />
+    <PackageReference Include="Nethereum.Web3" Version="2.2.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>
